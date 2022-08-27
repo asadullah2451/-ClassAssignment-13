@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullwebside{
+    width: 1200px;
+    margin: auto;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+/* ====================
+    Banner section 
+======================*/
+.header{
+    background: url(./photo-1471879832106-c7ab9e0cee23.jpg);
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: 73px -315px;
+    background-size: cover;
+    
+}
+.header .logo{
+    display: inline-block;
+}
+.header img{
+    margin: 20px 20px;
+}
+/* ===================
+    Menu section
+==================== */
+.header .menu{
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    left: 500px;
+}
+.header .menu ul li{
+    display: inline-block;
+}
+.header .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 5px 10px;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+.header .menu ul li a:hover{
+    color: #FC7149;
+}
+/*===================
+    Banner title
+================== */
+.header h1{
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+}
+.header h1::before{
+    content: '\f10d';
+    font-family: "Font Awesome 5 free";
+    color: #FC7149;
+    font-style: normal;
+    position: relative;
+    bottom: 20px;
+}
+.header h1::after{
+    content: '\f10e';
+    font-family: "Font Awesome 5 free";
+    color: #FC7149;
+    font-style: normal;
+    position: relative;
+    bottom: 20px;
+}
+/* ==================
+    About Section
+================== */
+.about_section{
+    height: 300px;
+    position: relative;
+}
+.about_section img{
+    width: 250px;
+    position: absolute;
+    top: 68px;
+    left: 158px;
+    border: 1px solid #FC7149;
+    box-shadow: 0 0 15px black;
+}
+.about{
+    width: 600px;
+    margin: auto;
+    display: inline-block;
+    margin: 30px 00;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+.about h1{
+    text-align: center;
+}
+/* ==================
+    Service Section
+================== */
+.services{
+    height: 500px;
+    background: #2E3E4E;
+    text-align: center;
+    padding-top: 80px;
+}
+.services h1{
+    text-align: center;
+    color: #FC7149;
+}
+/* ==============
+    box_1
+=============== */
+.services .box_1{
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.services .box_1 i{
+    background: #FC7149;
+    padding: 15px 15px;
+    border-radius: 0 50% 0 50%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.services .box_1 h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+}
+.services .box_1 ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+.services .box_1 li::before{
+    content: '\f560';
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #FC7149;
+    margin-right: 8px;
+    
+}
+.services .box_1 ul li{
+    margin-top: 10px;
+}
+.services .box_1 .btn a{
+    color: black;
+    text-decoration: none;
+    background: #FC7149;
+    padding: 10px 15px;
+    display: inline-block;
+    box-shadow: 3px 3px 5px black ;
+    border-radius: 6px;
+    margin: 40px  00 0px 00;
+    position: relative;
+    z-index: 1;
+}
+.services .box_1 .btn a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    border-radius: 6px;
+    z-index: -1;
+    transition: .5s;
+}
+.services .box_1 .btn a:hover::before{
+    background-color:yellow;
+    width: 100%;
+}
+
+
+/* ==============
+    box_2
+=============== */
+.services .box_2{
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.services .box_2 i{
+    background: #FC7149;
+    padding: 15px 15px;
+    border-radius: 0 50% 0 50%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.services .box_2 h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+}
+.services .box_2 ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+.services .box_2 li::before{
+    content: '\f560';
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #FC7149;
+    margin-right: 8px;
+    
+}
+.services .box_2 ul li{
+    margin-top: 10px;
+}
+.services .box_2 .btn a{
+    color: black;
+    text-decoration: none;
+    background: #FC7149;
+    padding: 10px 15px;
+    box-shadow: 3px 3px 5px black ;
+    display: inline-block;
+    border-radius: 6px;
+    margin: 40px 00 00 00;
+    position: relative;
+    z-index: 1;
+}
+.services .box_2 .btn a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    border-radius: 6px;
+    z-index: -1;
+    transition: .5s;
+}
+.services .box_2 .btn a:hover::before{
+    background-color:yellow;
+    width: 100%;
+}
+/* ==============
+    box_3
+=============== */
+.services .box_3{
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.services .box_3 i{
+    background: #FC7149;
+    padding: 15px 15px;
+    border-radius: 0 50% 0 50%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.services .box_3 h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+}
+.services .box_3 ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+.services .box_3 li::before{
+    content: '\f560';
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #FC7149;
+    margin-right: 8px;
+    
+}
+.services .box_3 ul li{
+    margin-top: 10px;
+}
+.services .box_3 .btn a{
+    color: black;
+    text-decoration: none;
+    background: #FC7149;
+    padding: 10px 15px;
+    box-shadow: 3px 3px 5px black ;
+    display: inline-block;
+    border-radius: 6px;
+    margin: 40px 00 00 00;
+    position: relative;
+    z-index: 1;
+}
+.services .box_3 .btn a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    border-radius: 6px;
+    z-index: -1;
+    transition: .5s;
+}
+.services .box_3 .btn a:hover::before{
+    background-color:yellow;
+    height: 100%;
+}
+/* ======================
+       Form Section
+====================== */
+.form_section{
+    text-align: center;
+    margin-bottom: 50px;
+    /* background: #ddd; */
+}
+.form_section h1{
+    display: inline-block;
+    margin: 40px 0px 40px 0px;
+}
+.form_section form input{
+    display: inline-block;
+    width: 400px;
+    margin: 10px 00;
+    border: none;
+    padding: 10px 0 3px 0px;
+    border-bottom:2px solid #EC7149;
+}
+.form_section form a{
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 3px 3px 5px rgb(71, 71, 71);
+    border-radius: 5px;
+    margin-top: 40px;
+    background: #EC7149;
+    position: relative;
+    z-index: 1;
+    
+}
+.form_section form a::before{
+    content:'';
+    width: 0%;
+    height: 100%;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px 0 0 5px;
+}
+.form_section form a:hover::before{
+    background: #713a02;
+    width: 50%;
+}
+.form_section form a::after{
+    content:'';
+    width: 0%;
+    height: 100%;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 0px 5px 5px 0px;
+}
+.form_section form a:hover::after{
+    background: #944a00;
+    width: 50%;
+}
+/* =====================
+    Footer Section
+===================== */
+footer{
+    width: 100%;
+    height: 90px;
+    background: #2E3E4E;
+    line-height: 90px;
+    text-align: center;
+}
+footer p{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+}
+.line{
+   width: 2px;
+   height: 20px;
+   display: inline-block;
+   background: black;
+   padding: 5px 00;
+   margin: 00 10px;
+   position: relative;
+   top: 5px;
+}
+.s_1{
+    display: inline-block;
+    font-size: 30px;
+}
+.s_2{
+    font-size: 30px;
+    color: #FC7149;
+}
